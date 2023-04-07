@@ -82,15 +82,15 @@ async def start(event):
              f"{hi} {event.sender.first_name}\n{line}\n{hj}\n{hj2}\n{hj3}\n{hj4}\n{hj5}\n{hj6}\n{hj7}\n{hj8}\n‣ /setlang {hj9}\n{line}\n{hj10}", 
              buttons=[
         [Button.url("Add me to your group ➕", url="t.me/Zaid2_Robot?startgroup=true")],
-        [Button.url("Channel 📢", url="t.me/TheUpdatesChannel"), Button.url("Support 🌎", url="t.me/thesupportchat")],
-        [Button.inline("language 🌐", data=f"langs"), Button.inline("Help ⁉️", data="help_menu")]])
+        [Button.url("𝐩𝐡𝐲𝐬𝐜𝐨-𝐡𝐞𝐥𝐩 📢", url="t.me/music_bot122"), Button.url("𝐏𝐡𝐲𝐬𝐜𝐨-𝐡𝐞𝐥𝐩", url="t.me/music_bot122")],
+        [Button.inline("𝐥𝐚𝐧𝐠𝐮𝐠𝐞 🌐", data=f"langs"), Button.inline("𝐇𝐞𝐥𝐩 ⁉️", data="help_menu")]])
     if event.is_group:
         IMSG = f"{random.choice(IMG)}"
         await event.client.send_file(event.chat_id,
              IMSG,
              caption="{} {}".format(hi, event.sender.first_name), 
              buttons=[
-         [Button.url("Add me to your group ➕", url="t.me/Zaid2_Robot?startgroup=true")]])
+         [Button.url("Add me  ➕", url="t.me/sunitarobot?startgroup=true")]])
 
 
 JSONDB = None
@@ -127,7 +127,7 @@ async def set_language(event):
        except Exception:
            pass
     bts = Buttons[0].copy()
-    bts.append([Button.inline("Next ▶", "btshh"), Button.inline("Cancel ❌", "cncll")])
+    bts.append([Button.inline("𝐍𝐞𝐱𝐭 ▶", "btshh"), Button.inline("𝐜𝐚𝐧𝐜𝐞𝐥 ❌", "cncll")])
     await event.edit("Choose your desired language..", buttons=bts)
 
 
@@ -156,15 +156,15 @@ async def click_next(event):
         val = 0
         bt = Buttons[0].copy()
     if val == 0:
-        bt.append([Button.inline("Next ▶", "btshh"), Button.inline("Cancel ❌", "cncll")])
+        bt.append([Button.inline("𝐍𝐞𝐱𝐭 ▶", "btshh"), Button.inline("Cancel ❌", "cncll")])
     else:
         bt.extend(
             [
                 [
-                    Button.inline("◀ Prev", f"btshhp{val}"),
-                    Button.inline("Next ▶", f"btshhn{val}"),
+                    Button.inline("◀ 𝐏𝐫𝐞𝐯", f"btshhp{val}"),
+                    Button.inline("𝐍𝐞𝐱𝐭 ▶", f"btshhn{val}"),
                 ],
-                [Button.inline("Cancel ❌", "cncll")],
+                [Button.inline("🚫 𝐂𝐚𝐧𝐜𝐞𝐥 ☢️", "cncll")],
             ]
         )
     await event.edit(buttons=bt)
@@ -205,7 +205,7 @@ async def set_lang(event):
 async def help(event):
     if event.is_group:
         buttons = [
-            [Button.url("❔ Help", "https://t.me/Zaid2_Robot?start=_help")],
+            [Button.url("❔ 𝐡𝐞𝐥𝐩", "https://t.me/sunitarobot?start=_help")],
         ]
         await event.reply(
             "Contact me in PM to get the list of possible commands.",
