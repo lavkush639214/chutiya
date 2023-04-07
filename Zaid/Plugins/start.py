@@ -19,37 +19,37 @@ translator = google_translator()
 from Zaid.utils import Zbot, Zinline
 from Zaid.Plugins.sql.language import set_lang as set_langu
 
-IMG = ["https://telegra.ph/file/556e5178cd3a00c1b6cf0.png",
-       "https://telegra.ph/file/bf9e7214e0335060e3fa6.png",
-       "https://telegra.ph/file/f8e5a40af4a42e15c6895.png",
-       "https://telegra.ph/file/3930433d95ab5be1ec662.png",
-       "https://telegra.ph/file/6338d96b1c11ffe72f318.png"
+IMG = ["https://te.legra.ph/file/ff591945eae13d0454e13.jpg",
+       "https://te.legra.ph/file/ff591945eae13d0454e13.jpg",
+       "https://te.legra.ph/file/ff591945eae13d0454e13.jpg",
+       "https://te.legra.ph/file/5d8d6445636005a6d1468.jpg",
+       "https://te.legra.ph/file/5d8d6445636005a6d1468.jpg"
 ]
 line = "───────────────────────"
 
 plugins = [
-    "Admin",
-    "AFK",
-    "Approval",
-    "AI-Chatbot",
-    "Filters",
-    "Greetings",
-    "Locks",
-    "Stickers",
-    "Rules",
-    "Song",
-    "Reports",
-    "Quotly",
-    "Purges",
-    "Pin",
-    "Misc",
-    "Force-Sub",
-    "Extras",
-    "Bans",
-    "Blocklist",
-    "Antiflood",
-    "CAPTCHA",
-    "Warnings",
+    "⛑️ 𝐚𝐝𝐦𝐢𝐧 🎩",
+    "🤖 𝐀𝐅𝐊 🆘",
+    "𝐀𝐏𝐑𝐎𝐕𝐄𝐋",
+    "𝐂𝐇𝐀𝐓-𝐁𝐎𝐓",
+    "𝐅𝐈𝐋𝐓𝐄𝐑𝐒",
+    "𝐆𝐑𝐄𝐄𝐓𝐈𝐍𝐆𝐒",
+    "𝐋𝐎𝐂𝐊𝐒",
+    "𝐒𝐓𝐈𝐂𝐊𝐄𝐑",
+    "𝐑𝐔𝐋𝐄𝐒",
+    "𝐒𝐎𝐍𝐆𝐒",
+    "𝐑𝐄𝐏𝐎𝐑𝐓𝐒",
+    "𝐐𝐔𝐎𝐓𝐋𝐘",
+    "𝐏𝐔𝐑𝐆𝐄𝐒",
+    "𝐏𝐈𝐍𝐒",
+    "𝐌𝐈𝐂𝐒",
+    "𝐅𝐎𝐑𝐂𝐄-𝐒𝐔𝐁",
+    "𝐄𝐗𝐓𝐑𝐀𝐒",
+    "𝐁𝐀𝐍𝐒",
+    "𝐁𝐋𝐎𝐂𝐊𝐋𝐈𝐒𝐓",
+    "𝐀𝐍𝐓𝐈𝐅𝐋𝐎𝐎𝐃",
+    "𝐂𝐀𝐏𝐓𝐂𝐇𝐀",
+    "𝐖𝐀𝐑𝐍𝐈𝐍𝐆𝐒",
 ]
 
 @Zbot(pattern="^/start ?(.*)")
