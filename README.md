@@ -2,9 +2,9 @@
 
 <p align="center">
 <a href="https://github.com/ITZ-ZAID/Telegram/network/members"><img src="https://img.shields.io/github/forks/ITZ-ZAID/Telegram?style=social" />
-<img src="https://img.shields.io/github/stars/ITZ-ZAID/Telegram?style=social" />
-<img src="https://img.shields.io/github/watchers/ITZ-ZAID/Telegram?style=social" />
-<a href="https://github.com/ITZ-ZAID/Telegram"><img src="https://img.shields.io/github/repo-size/ITZ-ZAID/Telegram?style=social&logo=github" />
+<img src="https://img.shields.io/github/stars/Psycholav/management-music-bot/Telegram?style=social" />
+<img src="https://github.com/Psycholav/management-music-bot/Telegram?style=social" />
+<a href="https://github.com/Psycholav/management-music-bot"><img src="https://img.shields.io/github/repo-size/ITZ-ZAID/Telegram?style=social&logo=github" />
 <a href="https://perso.crans.org/besson/LICENSE.html"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg?style=social&logo=github" />
 <a href="https://app.codacy.com/manual/ITZ-ZAID/Telegram/dashboard"><img src="https://img.shields.io/codacy/grade/d1726ee34f964a9a9b1ac509c6d90729?color=gold&logo=github&style=social" />
 </p>
