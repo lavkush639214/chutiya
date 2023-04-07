@@ -13,7 +13,7 @@ for name in files:
         load_plugins(plugin_name.replace(".py", ""))
     
 print("Successfully Started Bot!")
-print("Visit @TheUpdatesChannel")
+print("Visit  @music_bot122")
 
 if __name__ == "__main__":
     Zaid.run_until_disconnected()
