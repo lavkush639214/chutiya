@@ -81,7 +81,7 @@ async def start(event):
        await event.reply(
              f"{hi} {event.sender.first_name}\n{line}\n{hj}\n{hj2}\n{hj3}\n{hj4}\n{hj5}\n{hj6}\n{hj7}\n{hj8}\n‣ /setlang {hj9}\n{line}\n{hj10}", 
              buttons=[
-        [Button.url("Add me to your group ➕", url="t.me/Zaid2_Robot?startgroup=true")],
+        [Button.url("𝐚𝐝𝐝 𝐦𝐞 𝐦𝐨𝐢 𝐥𝐮𝐛 ➕", url="t.me/Zaid2_Robot?startgroup=true")],
         [Button.url("𝐩𝐡𝐲𝐬𝐜𝐨-𝐡𝐞𝐥𝐩 📢", url="t.me/music_bot122"), Button.url("𝐏𝐡𝐲𝐬𝐜𝐨-𝐡𝐞𝐥𝐩", url="t.me/music_bot122")],
         [Button.inline("𝐥𝐚𝐧𝐠𝐮𝐠𝐞 🌐", data=f"langs"), Button.inline("𝐇𝐞𝐥𝐩 ⁉️", data="help_menu")]])
     if event.is_group:
@@ -90,7 +90,7 @@ async def start(event):
              IMSG,
              caption="{} {}".format(hi, event.sender.first_name), 
              buttons=[
-         [Button.url("Add me  ➕", url="t.me/sunitarobot?startgroup=true")]])
+         [Button.url("𝐀𝐝𝐝 𝐦𝐨𝐢 𝐥𝐮𝐛  ➕", url="t.me/sunitarobot?startgroup=true")]])
 
 
 JSONDB = None
